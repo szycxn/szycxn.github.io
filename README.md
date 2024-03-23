@@ -10,7 +10,7 @@
 ### part 2
 这是一张关于中国各城市平均气温的地理时间线图表。它展示了从2012年到2022年的平均温度变化。我使用了散点地理类型来展示每个城市的数据点。图表中的最低点和最高点分别代表了当年最高和最低的平均气温。
 
-[作业一链接2](https://szycxn.github.io/timeline_map.html)
+[作业一链接2](https://szycxn.github.io/timeline_mapnew.html)
 
 
 ## 2. 作业2
