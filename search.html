@@ -1,0 +1,57 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>简单搜索引擎</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 20px;  
+        }  
+  
+        .search-container {  
+            max-width: 400px;  
+        }  
+  
+        input[type=text] {  
+            width: 100%;  
+            padding: 12px 20px;  
+            margin: 8px 0;  
+            display: inline-block;  
+            border: 1px solid #ccc;  
+            box-sizing: border-box;  
+        }  
+  
+        button {  
+            width: 100%;  
+            background-color: #4CAF50;  
+            color: white;  
+            padding: 14px 20px;  
+            margin: 8px 0;  
+            border: none;  
+            cursor: pointer;  
+            width: 100%;  
+        }  
+  
+        button:hover {  
+            background-color: #45a049;  
+        }  
+  
+        p {  
+            margin-top: 20px;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="search-container">  
+        <h2>欢迎使用我们的搜索引擎</h2>  
+        <p>请输入您想要搜索的内容，然后点击搜索按钮。</p>  
+        <form action="https://www.baidu.com/s" method="get"> <!-- 注意：这里的action属性应该指向你的后端搜索处理脚本 -->  
+            <input type="text" name="wd">
+            <input type="submit" value="百度搜索">
+            <button type="submit">搜索</button>  
+        </form>  
+    </div>  
+</body>  
+</html>
