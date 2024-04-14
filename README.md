@@ -35,3 +35,10 @@
 根据统计结果生成词云图，其中形容词的大小表示其出现的频率。
 
 [作业三链接](https://szycxn.github.io/Figure_1.png)
+
+
+## 4. 作业4
+
+哈利波特人物关系表
+
+[作业三链接](https://szycxn.github.io/character_relationship_graph.html)
